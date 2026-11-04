@@ -1,0 +1,76 @@
+{
+  "data_notice": "SYNTHETIC DEMONSTRATION DATA. Metrics do not represent real-world performance.",
+  "random_state": 42,
+  "n_samples": 3000,
+  "n_train": 2400,
+  "n_test": 600,
+  "features": [
+    "temperature_c",
+    "relative_humidity_pct",
+    "soil_moisture_pct"
+  ],
+  "class_labels": [
+    "NORMAL",
+    "WARNING",
+    "HIGH RISK"
+  ],
+  "accuracy": 0.9633333333333334,
+  "precision_macro": 0.9578313021709248,
+  "recall_macro": 0.9381157108845897,
+  "f1_macro": 0.9475399010231847,
+  "confusion_matrix": [
+    [
+      339,
+      2,
+      4
+    ],
+    [
+      4,
+      50,
+      3
+    ],
+    [
+      8,
+      1,
+      189
+    ]
+  ],
+  "classification_report": {
+    "NORMAL": {
+      "precision": 0.9658119658119658,
+      "recall": 0.9826086956521739,
+      "f1-score": 0.9741379310344828,
+      "support": 345.0
+    },
+    "WARNING": {
+      "precision": 0.9433962264150944,
+      "recall": 0.8771929824561403,
+      "f1-score": 0.9090909090909091,
+      "support": 57.0
+    },
+    "HIGH RISK": {
+      "precision": 0.9642857142857143,
+      "recall": 0.9545454545454546,
+      "f1-score": 0.9593908629441624,
+      "support": 198.0
+    },
+    "accuracy": 0.9633333333333334,
+    "macro avg": {
+      "precision": 0.9578313021709248,
+      "recall": 0.9381157108845896,
+      "f1-score": 0.9475399010231847,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.9631788075656,
+      "recall": 0.9633333333333334,
+      "f1-score": 0.9630919314800376,
+      "support": 600.0
+    }
+  },
+  "test_class_counts": {
+    "NORMAL": 345,
+    "HIGH RISK": 198,
+    "WARNING": 57
+  }
+}
